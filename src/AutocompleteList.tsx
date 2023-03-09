@@ -7,6 +7,8 @@ interface IAutocompleteListProps {
 }
 
 export default function AutocompleteList({ autocomplete, onSelect }: IAutocompleteListProps) {
+    console.log({autocomplete})
+
     return (
         <List>
             {
